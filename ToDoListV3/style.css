@@ -1,0 +1,72 @@
+body{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2364AA;
+    width: 580px;
+}    
+
+#user-input{
+    height: 40px;
+    width: 540px;
+    border-style: solid;
+    font-size: 18px;    
+}
+
+.main-buttons{
+    height: 45px;
+    width: 180px;
+    border-style: solid;
+    font-size: 18px;
+    background-color: #DCED31;
+}
+
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 80px;
+}
+
+.item-task{
+    height: 40px;    
+    background-color: white;
+    width: 200px;
+    border-style: solid;
+    font-size: 18px;
+    
+}
+
+.item-btn{
+    width: 100px;
+    height: 45px;
+}
+
+.completed{
+    width: 200px;
+    height: 40px;
+    text-decoration: line-through;
+}
+
+
+.delete{display: none}
+
+.hide{display: none}
+
+

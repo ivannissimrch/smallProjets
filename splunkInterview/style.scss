@@ -1,0 +1,51 @@
+$blue: #a3d5d3;
+
+body {
+  font-family:Arial,sans-serif;
+  background-color: $blue;
+}
+
+.green-rectangle {
+  height:100px;
+  background-color:green; 
+  margin-top: 20px;
+  
+}
+
+.red-rectangle {
+  height:80px;
+  background-color:red;   
+}
+
+.blue-rectangle {
+  height:60px;
+  background-color:blue;
+}
+
+.click-me {
+  padding:10px;
+  background-color:red;
+  cursor:pointer;
+}
+
+
+.green-rectangle .red-rectangle {
+  height: 100px;
+   top:-19px;  
+  background-color:red;
+  position: relative; 
+}
+
+
+.green-rectangle .red-rectangle .blue-rectangle{
+  background-color: blue;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .title{
+//   height: 50px;
+
+// }
